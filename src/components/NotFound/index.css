@@ -1,0 +1,12 @@
+.not-found-page-title {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+
+@media (min-width: 768px) {
+  .not-found-page-title {
+    font-size: 44px;
+  }
+}

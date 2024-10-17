@@ -1,0 +1,44 @@
+.team-card {
+  background-color: #ffffff33;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  width: 45%;
+  padding: 15px 30px;
+  font-family: 'Bree Serif';
+}
+
+.link {
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.team-logo {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  .team-logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  .link {
+    gap: 60px;
+  }
+}
+
+.team-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .team-title {
+    font-size: 24px;
+  }
+}
